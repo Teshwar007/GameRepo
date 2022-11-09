@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Deal or No Deal</title>
+    <link rel="stylesheet" type="text/css" href="../css/deal-or-no-deal.css">
+    <link href="https://fonts.googleapis.com/css?family=Michroma&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="logo">
+        <img class="logoImg" src="https://static.wikia.nocookie.net/logopedia/images/f/fa/DealOrNotDealAustralia2003.svg/revision/latest/scale-to-width-down/250?cb=20200614144818">
+    </div>
+    <div id="boxContainer">
+        <div class="box"><span class="boxNr">1</span><span class="boxValue"></span></div>
+        <div class="box"><span class="boxNr">2</span><span class="boxValue"></span></div>
+        <div class="box"><span class="boxNr">3</span><span class="boxValue"></span></div>
+        <div class="box"><span class="boxNr">4</span><span class="boxValue"></span></div>
+        <div class="box"><span class="boxNr">5</span><span class="boxValue"></span></div>
+        <div class="box"><span class="boxNr">6</span><span class="boxValue"></span></div>
+        <div class="box"><span class="boxNr">7</span><span class="boxValue"></span></div>
+        <div class="box"><span class="boxNr">8</span><span class="boxValue"></span></div>
+        <div class="box"><span class="boxNr">9</span><span class="boxValue"></span></div>
+        <div class="box"><span class="boxNr">10</span><span class="boxValue"></span></div>
+        <div class="box"><span class="boxNr">11</span><span class="boxValue"></span></div>
+        <div class="box"><span class="boxNr">12</span><span class="boxValue"></span></div>
+    </div>
+    <div id="smoneys" class="moneys">
+        <div class="moneyShow"></div>
+        <div class="moneyShow"></div>
+        <div class="moneyShow"></div>
+        <div class="moneyShow"></div>
+        <div class="moneyShow"></div>
+        <div class="moneyShow"></div>
+        <div class="moneyShow"></div>
+        <div class="moneyShow"></div>
+        <div class="moneyShow"></div>
+        <div class="moneyShow"></div>
+        <div class="moneyShow"></div>
+        <div class="moneyShow"></div>
+    </div>
+    <div id="button" style="display: flex;justify-content: center;align-items: center;">
+        <button style="color:black; font-size: 16px;" id="startGame">Start Game</button>
+    </div>
+    <div id="bank">
+        <div id="content">
+            <div class="offerTitle">We offer you:</div>
+            <div class="bankOffer"></div>
+            <button id="yesDeal" class="buttons">Deal</button>
+            <button id="noDeal" class="buttons">No Deal</button>
+            <div id="prevOffers" style="color:white;">Previous Offers: none</div>
+        </div>
+    </div>
+    <div id="finished">
+        <div id="finishedContent">
+            <div class="modalText">Congratulations, you won:</div>
+            <div id="winnings"></div>
+        </div>
+    </div>
+    <div id="lastDeal">
+        <div id="lastDealContent">
+            <div class="modalText">Do you want to keep you box, or change it for the one remaining box?</div>
+            <button id="keepBox" class="buttons">Keep It!</button>
+            <button id="changeBox" class="buttons">Change It!</button>
+        </div>
+    </div>
+    <div id="chooseBox">
+        <div id="chooseBoxContent">
+            <div class="chooseBoxText">Pick a box from 1 to 12!</div>
+            <button class="chooseBoxButton">1</button>
+            <button class="chooseBoxButton">2</button>
+            <button class="chooseBoxButton">3</button>
+            <button class="chooseBoxButton">4</button>
+            <button class="chooseBoxButton">5</button>
+            <button class="chooseBoxButton">6</button>
+            <button class="chooseBoxButton">7</button>
+            <button class="chooseBoxButton">8</button>
+            <button class="chooseBoxButton">9</button>
+            <button class="chooseBoxButton">10</button>
+            <button class="chooseBoxButton">11</button>
+            <button class="chooseBoxButton">12</button>
+        </div>
+    </div>
+
+</body>
+<script type="text/javascript" src="../js/deal-or-no-deal.js"></script>
+
+</html>
